@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\CaseStudyRough\Reciever\bin\Debug\Reciever.exe.config
+C:\Users\HP\source\repos\CaseStudyRough\Reciever\bin\Debug\Reciever.exe
+C:\Users\HP\source\repos\CaseStudyRough\Reciever\bin\Debug\Reciever.pdb
+C:\Users\HP\source\repos\CaseStudyRough\Reciever\obj\Debug\Reciever.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\CaseStudyRough\Reciever\obj\Debug\Reciever.exe
+C:\Users\HP\source\repos\CaseStudyRough\Reciever\obj\Debug\Reciever.pdb
+C:\Users\HP\source\repos\CaseStudyRough\Reciever\obj\Debug\Reciever.csprojAssemblyReference.cache
