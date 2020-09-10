@@ -12,23 +12,11 @@ namespace Reciever
     {
         static void Main(string[] args)
         {
-            using (Process compiler = new Process())
-            {
-                compiler.StartInfo.FileName = @"C:\Users\HP\source\repos\CaseStudyRough\Sender\bin\Debug\Sender.exe";
-                compiler.StartInfo.Arguments = "/r:System.dll /out:sample.exe stdstr.cs";
-                compiler.StartInfo.UseShellExecute = false;
-                compiler.StartInfo.RedirectStandardOutput = true;
-                compiler.Start();
-
-                Console.WriteLine(compiler.StandardOutput.ReadToEnd());
-
-                compiler.WaitForExit();
-            }
-
-
-
-            
-            
+             string data = string.Empty;
+                while ((data = Console.ReadLine()) != null)
+                {
+                    Console.WriteLine($"Got From sender ......{data}");
+                }
         }
     }
 }
