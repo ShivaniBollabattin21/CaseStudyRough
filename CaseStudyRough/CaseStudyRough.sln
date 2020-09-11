@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "Sender\Sender.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reciever", "Reciever\Reciever.csproj", "{3E82A701-49CB-4CB1-8479-B5D2C181424A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputOutputHandler", "InputOutputHandler\InputOutputHandler.csproj", "{3130C306-912F-4077-8E99-81F39B3FBCD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3E82A701-49CB-4CB1-8479-B5D2C181424A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E82A701-49CB-4CB1-8479-B5D2C181424A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E82A701-49CB-4CB1-8479-B5D2C181424A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3130C306-912F-4077-8E99-81F39B3FBCD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3130C306-912F-4077-8E99-81F39B3FBCD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3130C306-912F-4077-8E99-81F39B3FBCD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3130C306-912F-4077-8E99-81F39B3FBCD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

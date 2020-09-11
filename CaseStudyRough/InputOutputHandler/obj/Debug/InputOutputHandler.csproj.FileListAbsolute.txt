@@ -1,0 +1,6 @@
+C:\Users\HP\source\repos\CaseStudyRough\InputOutputHandler\bin\Debug\InputOutputHandler.dll
+C:\Users\HP\source\repos\CaseStudyRough\InputOutputHandler\bin\Debug\InputOutputHandler.pdb
+C:\Users\HP\source\repos\CaseStudyRough\InputOutputHandler\obj\Debug\InputOutputHandler.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\CaseStudyRough\InputOutputHandler\obj\Debug\InputOutputHandler.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\CaseStudyRough\InputOutputHandler\obj\Debug\InputOutputHandler.dll
+C:\Users\HP\source\repos\CaseStudyRough\InputOutputHandler\obj\Debug\InputOutputHandler.pdb

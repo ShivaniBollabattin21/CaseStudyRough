@@ -5,3 +5,6 @@ C:\Users\HP\source\repos\CaseStudyRough\Sender\obj\Debug\Sender.csprojAssemblyRe
 C:\Users\HP\source\repos\CaseStudyRough\Sender\obj\Debug\Sender.csproj.CoreCompileInputs.cache
 C:\Users\HP\source\repos\CaseStudyRough\Sender\obj\Debug\Sender.exe
 C:\Users\HP\source\repos\CaseStudyRough\Sender\obj\Debug\Sender.pdb
+C:\Users\HP\source\repos\CaseStudyRough\Sender\bin\Debug\InputOutputHandler.dll
+C:\Users\HP\source\repos\CaseStudyRough\Sender\bin\Debug\InputOutputHandler.pdb
+C:\Users\HP\source\repos\CaseStudyRough\Sender\obj\Debug\Sender.csproj.CopyComplete

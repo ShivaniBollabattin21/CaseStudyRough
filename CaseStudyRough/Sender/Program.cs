@@ -1,7 +1,9 @@
-﻿using System;
+﻿using InputOutputHandler;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.IO.Pipes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,21 +14,14 @@ namespace Sender
     {
         static void Main(string[] args)
         {
-            try
+            string filePath = @"C:\Users\HP\source\repos\Sales.csv";
+            CSVFileProcessor _csvFileProcessor = new CSVFileProcessor(filePath);
+            List<string> data = _csvFileProcessor.ReadCSVFileAndReturnData();
+            for(int i =0;i<data.Count;i++)
             {
-                using (var reader = new StreamReader(@"C:\Users\HP\source\repos\Sales.csv"))
-                {
-                    while (!reader.EndOfStream)
-                    {
-                        var line = reader.ReadLine();
-                        Console.WriteLine(line);
-                    }
-                }
+                Console.WriteLine(data[i]);
             }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
+            Console.ReadKey();
 
         }
     }

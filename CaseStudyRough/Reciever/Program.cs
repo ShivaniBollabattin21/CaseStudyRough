@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.IO.Pipes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,11 +13,13 @@ namespace Reciever
     {
         static void Main(string[] args)
         {
-             string data = string.Empty;
+            
+                string data = string.Empty;
                 while ((data = Console.ReadLine()) != null)
                 {
                     Console.WriteLine($"Got From sender ......{data}");
                 }
         }
     }
+    
 }
