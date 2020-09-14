@@ -4,3 +4,15 @@ C:\Users\HP\source\repos\CaseStudyRough\InputOutputHandler\obj\Debug\InputOutput
 C:\Users\HP\source\repos\CaseStudyRough\InputOutputHandler\obj\Debug\InputOutputHandler.csproj.CoreCompileInputs.cache
 C:\Users\HP\source\repos\CaseStudyRough\InputOutputHandler\obj\Debug\InputOutputHandler.dll
 C:\Users\HP\source\repos\CaseStudyRough\InputOutputHandler\obj\Debug\InputOutputHandler.pdb
+D:\Training\case-study1\CaseStudyRough\CaseStudyRough\InputOutputHandler\bin\Debug\InputOutputHandler.dll
+D:\Training\case-study1\CaseStudyRough\CaseStudyRough\InputOutputHandler\bin\Debug\InputOutputHandler.pdb
+D:\Training\case-study1\CaseStudyRough\CaseStudyRough\InputOutputHandler\obj\Debug\InputOutputHandler.csprojAssemblyReference.cache
+D:\Training\case-study1\CaseStudyRough\CaseStudyRough\InputOutputHandler\obj\Debug\InputOutputHandler.csproj.CoreCompileInputs.cache
+D:\Training\case-study1\CaseStudyRough\CaseStudyRough\InputOutputHandler\obj\Debug\InputOutputHandler.dll
+D:\Training\case-study1\CaseStudyRough\CaseStudyRough\InputOutputHandler\obj\Debug\InputOutputHandler.pdb
+D:\Training\CaseStudyRough\CaseStudyRough\InputOutputHandler\bin\Debug\InputOutputHandler.dll
+D:\Training\CaseStudyRough\CaseStudyRough\InputOutputHandler\bin\Debug\InputOutputHandler.pdb
+D:\Training\CaseStudyRough\CaseStudyRough\InputOutputHandler\obj\Debug\InputOutputHandler.csprojAssemblyReference.cache
+D:\Training\CaseStudyRough\CaseStudyRough\InputOutputHandler\obj\Debug\InputOutputHandler.csproj.CoreCompileInputs.cache
+D:\Training\CaseStudyRough\CaseStudyRough\InputOutputHandler\obj\Debug\InputOutputHandler.dll
+D:\Training\CaseStudyRough\CaseStudyRough\InputOutputHandler\obj\Debug\InputOutputHandler.pdb

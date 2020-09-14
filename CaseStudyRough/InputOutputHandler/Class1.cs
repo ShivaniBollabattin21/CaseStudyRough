@@ -7,32 +7,38 @@ using System.Threading.Tasks;
 
 namespace InputOutputHandler
 {
-     interface IInputOutputHandler
+     public interface IInputHandler
     {
-      void ReadInput();
-      void WriteOutput();
+      List<string> ReadInput();
+      
 
     }
-    public class CSVFileProcessor
+    public interface IOutputHandler
     {
-       public string FilePath { get; set; }
-        public CSVFileProcessor(string filepath)
+        //List<string> ReadInput();
+        void WriteOutput(List<string> data);
+
+    }
+    public class CSVFileInputOutputProcessor : IInputHandler, IOutputHandler
+    {
+       public string _CsvFilePath { get; set; }
+        public CSVFileInputOutputProcessor(string filepath)
         {
-            this.FilePath = filepath;
+            this._CsvFilePath = filepath;
         }
        public List<string> ReadInput()
        {
 
-            List<string> csvData = new List<string>();
+            List<string> _DataReadFromCSVFile = new List<string>();
             try
             {
                
-                using (var reader = new StreamReader(this.FilePath))
+                using (var reader = new StreamReader(_CsvFilePath))
                 {
                     while (!reader.EndOfStream)
                     {
-                        var line = reader.ReadLine();  
-                        csvData.Add(line);           
+                        var line = reader.ReadLine();
+                        _DataReadFromCSVFile.Add(line);           
                     }
                 }
             }
@@ -40,13 +46,46 @@ namespace InputOutputHandler
             {
                 Console.WriteLine(e.Message);
             }
-            return csvData;
+            return _DataReadFromCSVFile;
        }
 
-        public void WriteOutput()
+        public void WriteOutput(List<string> data)
         {
 
         }
+    }
+
+    public class ConsoleInputOutputProcessor : IInputHandler, IOutputHandler
+    {
         
+        public ConsoleInputOutputProcessor(){ }
+        public List<string> ReadInput()
+        {
+
+            List<string> _DataReadFromConsole = new List<string>();
+            try
+            {
+
+                string data = string.Empty;
+                while ((data = Console.ReadLine()) != null)
+                {
+                    _DataReadFromConsole.Add(data);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return _DataReadFromConsole;
+        }
+
+        public void WriteOutput(List<string> data)
+        {
+            foreach(string d in data)
+            {
+                Console.WriteLine(d);
+            }   
+
+        }
     }
 }

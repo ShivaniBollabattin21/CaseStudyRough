@@ -5,3 +5,10 @@ C:\Users\HP\source\repos\CaseStudyRough\Reciever\obj\Debug\Reciever.csproj.CoreC
 C:\Users\HP\source\repos\CaseStudyRough\Reciever\obj\Debug\Reciever.exe
 C:\Users\HP\source\repos\CaseStudyRough\Reciever\obj\Debug\Reciever.pdb
 C:\Users\HP\source\repos\CaseStudyRough\Reciever\obj\Debug\Reciever.csprojAssemblyReference.cache
+D:\Training\CaseStudyRough\CaseStudyRough\Reciever\bin\Debug\Reciever.exe.config
+D:\Training\CaseStudyRough\CaseStudyRough\Reciever\bin\Debug\Reciever.exe
+D:\Training\CaseStudyRough\CaseStudyRough\Reciever\bin\Debug\Reciever.pdb
+D:\Training\CaseStudyRough\CaseStudyRough\Reciever\obj\Debug\Reciever.csprojAssemblyReference.cache
+D:\Training\CaseStudyRough\CaseStudyRough\Reciever\obj\Debug\Reciever.csproj.CoreCompileInputs.cache
+D:\Training\CaseStudyRough\CaseStudyRough\Reciever\obj\Debug\Reciever.exe
+D:\Training\CaseStudyRough\CaseStudyRough\Reciever\obj\Debug\Reciever.pdb
