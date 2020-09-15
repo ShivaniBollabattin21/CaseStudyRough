@@ -4,9 +4,9 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "CaseStudyRough\Sender\Sender.csproj", "{C3EE7CB1-4DD0-4C7C-ABFA-AB40C586DA96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reciever", "Reciever\Reciever.csproj", "{3E82A701-49CB-4CB1-8479-B5D2C181424A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reciever", "CaseStudyRough\Reciever\Reciever.csproj", "{3E82A701-49CB-4CB1-8479-B5D2C181424A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputOutputHandler", "InputOutputHandler\InputOutputHandler.csproj", "{3130C306-912F-4077-8E99-81F39B3FBCD3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputOutputHandler", "CaseStudyRough\InputOutputHandler\InputOutputHandler.csproj", "{3130C306-912F-4077-8E99-81F39B3FBCD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
