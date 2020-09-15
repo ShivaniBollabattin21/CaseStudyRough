@@ -8,6 +8,10 @@ jobs:
   build:
  
     runs-on: windows-latest
+    
+     env:
+      Solution_Name: CaseStudyRough/CaseStudyRough.sln                         
+#      Test_Project_Path: your-test-project-path                 
  
     steps:
     - uses: actions/checkout@v1
