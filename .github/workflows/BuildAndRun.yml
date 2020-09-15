@@ -10,7 +10,7 @@ jobs:
     runs-on: windows-latest
     
     env: 
-      Solution_Name: CaseStudyRough.sln                         
+      Solution_Name: CaseStudyRough/CaseStudyRough.sln                         
 #      Test_Project_Path: your-test-project-path                 
  
     steps:
@@ -24,11 +24,4 @@ jobs:
 #     - name: Run unit tests
 #       run: dotnet test --no-build --configuration Release
 # Restore paages, MSBUild the app, run the app
-    - name: Build the App
-      shell: cmd
-      run: call build.bat 
-
-    # Run the app
-    - name: Run the App
-      shell: cmd
-      run: call run.bat 
+    
