@@ -43,11 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="DataProcessor.cs" />
+    <Compile Include="Receiver.cs" />
+    <Compile Include="SensorData.cs" />
+    <Compile Include="SensorDataGroup.cs" />
+    <Compile Include="Statistics.cs" />
+    <Compile Include="ReceiverMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InputOutputHandler\InputOutputHandler.csproj">
+      <Project>{3130c306-912f-4077-8e99-81f39b3fbcd3}</Project>
+      <Name>InputOutputHandler</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -21,10 +21,10 @@ namespace InputOutputHandler
     }
     public class CSVFileInputOutputProcessor : IInputHandler, IOutputHandler
     {
-       public string _CsvFilePath { get; set; }
+       public string csvFilePath { get; set; }
         public CSVFileInputOutputProcessor(string filepath)
         {
-            this._CsvFilePath = filepath;
+            this.csvFilePath = filepath;
         }
        public List<string> ReadInput()
        {
@@ -33,7 +33,7 @@ namespace InputOutputHandler
             try
             {
                
-                using (var reader = new StreamReader(_CsvFilePath))
+                using (var reader = new StreamReader(csvFilePath))
                 {
                     while (!reader.EndOfStream)
                     {
@@ -51,7 +51,21 @@ namespace InputOutputHandler
 
         public void WriteOutput(List<string> data)
         {
+            try
+            {
 
+                using (var writer = new StreamWriter("average.csv"))
+                {
+                    for (var i = 0; i < data.Count ; i++ )
+                    {
+                        writer.WriteLine(data[i]);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
     }
 
